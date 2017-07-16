@@ -41,6 +41,7 @@ function printing_ints_while(num1, num2) {
     }
 }
 // printing_ints_while(2000, 5280)
+// LEAP YEAR
 function leap_year(year) {
     if(year % 400 == 0){
         console.log('Leap year!');
@@ -53,3 +54,40 @@ function leap_year(year) {
     }
 }
 // leap_year(100000);
+// SIGMA
+function sigma(num) {
+    let sum = 0
+    for (let i = 0; i <= num; i++) {
+        sum += i
+    }
+    console.log(sum);
+}
+// sigma(22)
+// FACTORIAL
+function factorial(num) {
+    let sum = 1
+    for (let i = 1; i <= num; i++) {
+        sum *= i
+    }
+    console.log(sum);
+}
+// factorial(5)
+// STAR ART
+// left
+function drawLeftStars(num) {
+    for (let i = 0; i <= num; i++) {
+        console.log('*');
+    }
+}
+// drawLeftStars(20)
+// right
+function drawRightStars(num) {
+    for(let i = 0; i <= num; i++){
+        if (i == num) {
+            console.log('*');
+        } else {
+            console.log('space');
+        }
+    }
+}
+drawRightStars(10)

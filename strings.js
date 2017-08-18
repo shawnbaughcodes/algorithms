@@ -19,6 +19,7 @@ function str2word(str) {
 // str2word("Life is not a game")
 // STRING TO ARRAY AND REVERSE
 function reverseWordOrder(str) {
-    return str.split(" ").reverse().join(" ")
+    // return str.split(" ").reverse().join(" ")
+    
 }
 console.log(reverseWordOrder("This is so crazy"));
